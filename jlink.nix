@@ -36,4 +36,6 @@ let
 
 in
 
-  wrapJlink "JLinkExe" [ udev ]
+{
+  JLinkExe = wrapJlink "JLinkExe" [ udev ];
+}
